@@ -1,4 +1,7 @@
 import org.json.simple.JSONObject;
+import org.json.simple.parser.ParseException;
+
+import java.io.IOException;
 import java.sql.*;
 
 public class Transactor {
@@ -15,8 +18,8 @@ public class Transactor {
 
     }
 
-    public JSONObject addTransaction(String[] args){
-            return null;
+    public JSONObject addTransaction(String[] args) throws ParseException, SQLException, IOException {
+            return dbObject.addTransaction(args[1]);
     }
 
     public JSONObject aggTransaction(String[] args) throws SQLException {

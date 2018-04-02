@@ -22,12 +22,19 @@ public class Transactor {
     public JSONObject aggTransaction(String[] args) throws SQLException {
 
         if (args[1].equals("sum")) {
-            System.out.println("Sum function detected!!");
+            System.out.println("Sum function!!");
             return dbObject.getSum(args[0]);
         }
 
-        return new JSONObject();
+        else if (args[1].equals("list")){
+            System.out.println("List function");
+            return dbObject.getListOfTransactions(args[0]);
+        }
 
+        else {
+            System.out.println("All Transactions Method");
+            return dbObject.getAllTransaction(args[0],args[1]);
+        }
     }
 
 

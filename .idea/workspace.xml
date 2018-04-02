@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6f4913de-689b-4882-9d78-20344c9e68a8" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/App.java" afterPath="$PROJECT_DIR$/src/main/java/App.java" />
       <change beforePath="$PROJECT_DIR$/src/main/java/DBUtil.java" afterPath="$PROJECT_DIR$/src/main/java/DBUtil.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Transactor.java" afterPath="$PROJECT_DIR$/src/main/java/Transactor.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -58,20 +54,21 @@
       <file leaf-file-name="DBUtil.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/DBUtil.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="274">
-              <caret line="79" column="20" lean-forward="false" selection-start-line="79" selection-start-column="20" selection-end-line="79" selection-end-column="20" />
+            <state relative-caret-position="178">
+              <caret line="91" column="51" lean-forward="true" selection-start-line="91" selection-start-column="51" selection-end-line="91" selection-end-column="51" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#2708#2709#0" expanded="true" />
-                <element signature="e#2735#2736#0" expanded="true" />
-                <marker date="1522638420000" expanded="true" signature="738:807" ph="SELECT sum(a... transaction" />
-                <marker date="1522638420000" expanded="true" signature="738:808" ph="SELECT user_... transaction" />
-                <marker date="1522638420000" expanded="true" signature="1247:1289" ph="SELECT * fro... transaction" />
-                <marker date="1522638420000" expanded="true" signature="1969:2018" ph="SELECT * FRO... TRANSACTION" />
-                <marker date="1522638420000" expanded="true" signature="1969:2035" ph="SELECT * FRO... TRANSACTION" />
-                <marker date="1522638420000" expanded="true" signature="1969:2040" ph="SELECT * FRO... TRANSACTION" />
-                <marker date="1522638420000" expanded="true" signature="1969:2052" ph="SELECT * FRO... TRANSACTION" />
-                <marker date="1522638420000" expanded="true" signature="1969:2053" ph="SELECT * FRO... TRANSACTION" />
+                <marker date="1522641452000" expanded="true" signature="919:988" ph="SELECT sum(a... transaction" />
+                <marker date="1522641452000" expanded="true" signature="919:989" ph="SELECT user_... transaction" />
+                <marker date="1522641452000" expanded="true" signature="1428:1470" ph="SELECT * fro... transaction" />
+                <marker date="1522641452000" expanded="true" signature="2150:2199" ph="SELECT * FRO... TRANSACTION" />
+                <marker date="1522641452000" expanded="true" signature="2150:2216" ph="SELECT * FRO... TRANSACTION" />
+                <marker date="1522641452000" expanded="true" signature="2150:2221" ph="SELECT * FRO... TRANSACTION" />
+                <marker date="1522641452000" expanded="true" signature="2150:2233" ph="SELECT * FRO... TRANSACTION" />
+                <marker date="1522641452000" expanded="true" signature="2150:2234" ph="SELECT * FRO... TRANSACTION" />
+                <marker date="1522641452000" expanded="true" signature="3369:3432" ph="INSERT INTO test... " />
+                <marker date="1522641452000" expanded="true" signature="3369:3436" ph="INSERT INTO test... " />
+                <marker date="1522641452000" expanded="true" signature="3369:3486" ph="INSERT INTO test... " />
               </folding>
             </state>
           </provider>
@@ -350,12 +347,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1522623054818</updated>
-      <workItem from="1522623063637" duration="9796000" />
+      <workItem from="1522623063637" duration="12507000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9796000" />
+    <option name="totallyTimeSpent" value="12507000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="712" extended-state="0" />
@@ -465,20 +462,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/DBUtil.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="274">
-          <caret line="79" column="20" lean-forward="false" selection-start-line="79" selection-start-column="20" selection-end-line="79" selection-end-column="20" />
+        <state relative-caret-position="178">
+          <caret line="91" column="51" lean-forward="true" selection-start-line="91" selection-start-column="51" selection-end-line="91" selection-end-column="51" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#2708#2709#0" expanded="true" />
-            <element signature="e#2735#2736#0" expanded="true" />
-            <marker date="1522638420000" expanded="true" signature="738:807" ph="SELECT sum(a... transaction" />
-            <marker date="1522638420000" expanded="true" signature="738:808" ph="SELECT user_... transaction" />
-            <marker date="1522638420000" expanded="true" signature="1247:1289" ph="SELECT * fro... transaction" />
-            <marker date="1522638420000" expanded="true" signature="1969:2018" ph="SELECT * FRO... TRANSACTION" />
-            <marker date="1522638420000" expanded="true" signature="1969:2035" ph="SELECT * FRO... TRANSACTION" />
-            <marker date="1522638420000" expanded="true" signature="1969:2040" ph="SELECT * FRO... TRANSACTION" />
-            <marker date="1522638420000" expanded="true" signature="1969:2052" ph="SELECT * FRO... TRANSACTION" />
-            <marker date="1522638420000" expanded="true" signature="1969:2053" ph="SELECT * FRO... TRANSACTION" />
+            <marker date="1522641452000" expanded="true" signature="919:988" ph="SELECT sum(a... transaction" />
+            <marker date="1522641452000" expanded="true" signature="919:989" ph="SELECT user_... transaction" />
+            <marker date="1522641452000" expanded="true" signature="1428:1470" ph="SELECT * fro... transaction" />
+            <marker date="1522641452000" expanded="true" signature="2150:2199" ph="SELECT * FRO... TRANSACTION" />
+            <marker date="1522641452000" expanded="true" signature="2150:2216" ph="SELECT * FRO... TRANSACTION" />
+            <marker date="1522641452000" expanded="true" signature="2150:2221" ph="SELECT * FRO... TRANSACTION" />
+            <marker date="1522641452000" expanded="true" signature="2150:2233" ph="SELECT * FRO... TRANSACTION" />
+            <marker date="1522641452000" expanded="true" signature="2150:2234" ph="SELECT * FRO... TRANSACTION" />
+            <marker date="1522641452000" expanded="true" signature="3369:3432" ph="INSERT INTO test... " />
+            <marker date="1522641452000" expanded="true" signature="3369:3436" ph="INSERT INTO test... " />
+            <marker date="1522641452000" expanded="true" signature="3369:3486" ph="INSERT INTO test... " />
           </folding>
         </state>
       </provider>

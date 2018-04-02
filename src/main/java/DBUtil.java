@@ -1,6 +1,11 @@
 import org.json.simple.JSONObject;
+import org.json.simple.parser.JSONParser;
+import org.json.simple.parser.ParseException;
 
 import java.io.File;
+import java.io.FileNotFoundException;
+import java.io.FileReader;
+import java.io.IOException;
 import java.sql.*;
 
 public class DBUtil {
@@ -76,7 +81,20 @@ public class DBUtil {
 
     }
 
-    public JSONObject addTransaction(String JSONPath){
+    public JSONObject addTransaction(String JSONPath) throws IOException, ParseException, SQLException {
+        JSONParser jsonParser = new JSONParser();
+        Object json_blob = jsonParser.parse(new FileReader(JSONPath));
+        JSONObject ob  = (JSONObject) json_blob;
+        String amount = (String) ob.get("amount");
+        System.out.println(amount);
+        String description = (String) ob.get("description");
+        Date date = (Date) ob.get("date");
+        String userId = (String) ob.get("user_id");
+        sql = "INSERT INTO test (transaction_id,amount,desc,user_id,rand_date)" + String.format("VALUES (LEFT(UIUD(),8),%f,%s,%s,%s)",
+                amount,description,date,userId);
+        PreparedStatement prep = conn.prepareStatement(sql);
+        prep.executeUpdate();
+        ResultSet resultSet = stmt.executeQuery(sql);
         return null;
     }
 }
